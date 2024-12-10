@@ -5,7 +5,8 @@
 ## Introduction 🐱‍💻
 - Created an Inventory application which is used to create and list products and its matarials used.
 - Used Redux for storing, listing and updating products.
--## Tech Stack used 👨‍💻
+
+## Tech Stack used 👨‍💻
 
 - **HTML** 
 - **JavaScript** 
