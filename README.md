@@ -1,5 +1,5 @@
 <h1> Inventory Application</h1> 
-<p> <a href="https://vibeosys-inventory-app-assignment.netlify.app/">Deployed Link </a> | <a>🚨🚨PROJECT DEMO LINK SOON 🚨🚨</a></p>
+<p> <a href="https://vibeosys-inventory-app-assignment.netlify.app/">Deployed Link </a> | <a href="https://youtu.be/A4lNsnK4O00">Demo link</a></p>
   
 
 ## Introduction 🐱‍💻
