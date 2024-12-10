@@ -1,5 +1,5 @@
-function updatePrevProduct() {
+function UpdatePrevProduct() {
   return <div>updatePrevProduct</div>;
 }
 
-export default updatePrevProduct;
+export default UpdatePrevProduct;
