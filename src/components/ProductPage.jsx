@@ -24,7 +24,7 @@ function ProductPage() {
               <div>
                 <p>
                   {" "}
-                  {product.name}, {product.catefory}, ₹{product.totalCost}
+                  {product.name}, {product.category}, ₹{product.totalCost}{" "}
                 </p>
                 <Link to={`/update/${product.id}`}>
                   <button>Update</button>

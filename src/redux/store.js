@@ -9,7 +9,11 @@ const productSlice = createSlice({
   initialState,
   reducers: {
     addProducts(state, action) {
-      state.products.push(action.payload);
+      const newProduct = {
+        ...action.payload,
+        id: Date.now(),
+      };
+      state.products.push(newProduct);
     },
     updateProduct(state, action) {
       const idx = state.products.findIndex(
@@ -21,13 +25,13 @@ const productSlice = createSlice({
     },
     deleteProduct(state, action) {
       state.products = state.products.filter(
-        (curProduct, id) => id !== action.payload
+        (curProduct) => curProduct.id !== action.payload
       );
     },
   },
 });
 
-export const { addProduct, updateProduct, deleteProduct } =
+export const { addProducts, updateProduct, deleteProduct } =
   productSlice.actions;
 
 export const store = configureStore({
